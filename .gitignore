@@ -1,0 +1,12 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Mac/Linux hidden system files
+.DS_Store
+*.swp
